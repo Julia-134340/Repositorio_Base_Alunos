@@ -1,0 +1,108 @@
+nav{
+    background-color: #a9a8fc;
+    color: rgb(252, 204, 237);
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 10px 30px;
+}
+.master{
+    background-color: #a9a8fc;
+    color: rgb(0, 0, 0);
+}
+.info{
+    background-color: #a9a8fc;
+    color: rgb(247, 218, 234);
+}
+ul{
+    display: flex;
+    gap: 29px;
+}
+.master{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    width:250px;
+
+}
+button{
+    background-color: rgb(255, 207, 255);
+    height: 30px;
+    width: 35px;
+    border-radius: 90px;
+    border: none;
+
+}
+.logo{
+    width: 75px;
+    height: 75px;
+
+}
+.uti{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.btn2{
+    width: 150px;
+    justify-content: space-around;
+
+}
+.imagem{
+    width: 200px;
+    height: 200px;
+}
+.imagem1{
+   width: 200px;
+    height: 200px; 
+}
+.imagem2{
+   width: 200px;
+    height: 200px; 
+}
+.imagem3{
+   width: 200px;
+    height: 200px; 
+}
+.imagem4{
+   width: 200px;
+    height: 200px; 
+}
+.preecos{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.aa{
+    justify-content: space-around;
+    
+}
+
+
+    .descontos{
+        width: 200px;
+        height: 200px; 
+    }
+
+
+.descontos1{
+        width: 200px;
+        height: 200px; 
+    }
+
+.desontos2{
+        width: 200px;
+        height: 200px; 
+    }
+
+.descontos3{
+        width: 200px;
+        height: 200px; 
+    }    
+
+    /* pequena div tera que ter o comando position absolute */
+.promos{
+    display: flex
+}
