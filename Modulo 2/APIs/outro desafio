@@ -1,0 +1,12 @@
+import requests 
+
+
+dados=requests.get('https://68e3f2d48e116898997a8bd0.mockapi.io/restaurante').json()
+
+for item in dados:
+    
+    pedido = item.get('Mesa')
+    id = item.get('id')
+
+    if '5' in pedido:
+        requests.delete(f'https://68e3f2d48e116898997a8bd0.mockapi.io/restaurante/{id}')
